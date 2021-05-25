@@ -1,0 +1,27 @@
+{
+  "name": "online-offline-budget-trackers",
+  "version": "1.0.0",
+  "description": "Budget Tracker application to allow for offline and online access and functionality",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NohaAshraf85/Online-Offline-Budget-Trackers.git"
+  },
+  "author": "Noha Ashraf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NohaAshraf85/Online-Offline-Budget-Trackers/issues"
+  },
+  "homepage": "https://github.com/NohaAshraf85/Online-Offline-Budget-Trackers#readme"
+}
