@@ -2,7 +2,7 @@
 ## Description
 A Budget tracker that enables adding expenses and deposits with or without internet connection.
 
-Deployed application can be viewed through the following link: [Workout-Tracker](https://stormy-escarpment-39241.herokuapp.com/?id=60a564413b7e1600151330d6)
+Deployed application can be viewed through the following link: [Budget-Tracker](https://morning-castle-91719.herokuapp.com/)
 
 ## Table of Contents
 
@@ -51,3 +51,11 @@ To install the application locally, follow the following steps:
 4. Make sure that the MongoDB is running, through running the command `mongo` either on gitbash, command line or powershell
 5. Run the local server using the command `npm start` or `node server.js`
 6. To open the application locally, open localhost:3000 in your browser
+
+## Usage
+The Online/Offline Budget Trackers, enables the application user to be able to add expenses and deposits with or without internet conenction (while offline).
+
+## How It Works
+Upon opening the application the user is presented with the Homepage which enables the user to add ot subtract funds.
+
+![Homepage](./assets/images/homepage.png)
