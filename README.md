@@ -56,6 +56,27 @@ To install the application locally, follow the following steps:
 The Online/Offline Budget Trackers, enables the application user to be able to add expenses and deposits with or without internet conenction (while offline).
 
 ## How It Works
-Upon opening the application the user is presented with the Homepage which enables the user to add ot subtract funds.
+Upon opening the application the user is presented with the Homepage which enables the user to add or subtract funds.
 
 ![Homepage](./assets/images/homepage.png)
+
+### Add Funds 
+Adding Funds works online and added offline, once the user adds a Name of Transaction and Transaction Ammount and clicks on the + Add Funds button, the funds are added.
+
+**Online**
+    If the user is online the added funds will be directly added to the database and can be viewed on Robo 3T for testing pusposes.
+
+**Offline**
+     If the user is offline, the funds will be added to the UI and will be cashed using IndexDB however, the funds added will not show on Robo 3T until the user is back online and this cashed data is retrieved and pushed to the front-end database.
+
+### Subtract Funds
+Subtracting Funds works online and offline, once the user adds a NAme of Transaction and a Transaction Amount and clicks on the - Subtract Funds button, the funds are subtracted.
+   
+**Online**
+    If the user is online the subtracted funds will be directly added to the database and can be viewed on Robo 3T for testing pusposes.
+
+**Offline**
+     If the user is offline, the subtracted funds will be added to the UI and will be cashed using IndexDB however, the funds added will not show on Robo 3T until the user is back online and this cashed data is retrieved and pushed to the front-end database.
+
+
+
