@@ -2,16 +2,6 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
-mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts',
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-  }
-);
-
 const transactionSchema = new Schema(
   {
     name: {
