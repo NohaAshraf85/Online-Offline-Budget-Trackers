@@ -64,23 +64,48 @@ Upon opening the application the user is presented with the Homepage which enabl
 Adding Funds works online and added offline, once the user adds a Name of Transaction and Transaction Ammount and clicks on the + Add Funds button, the funds are added.
 
 **Online**
-
     If the user is online the added funds will be directly added to the database and can be viewed on Robo 3T for testing pusposes.
 
 **Offline**
-
      If the user is offline, the funds will be added to the UI and will be cashed using IndexDB however, the funds added will not show on Robo 3T until the user is back online and this cashed data is retrieved and pushed to the front-end database.
 
 ### Subtract Funds
 Subtracting Funds works online and offline, once the user adds a NAme of Transaction and a Transaction Amount and clicks on the - Subtract Funds button, the funds are subtracted.
    
 **Online**
-
     If the user is online the subtracted funds will be directly added to the database and can be viewed on Robo 3T for testing pusposes.
 
 **Offline**
-
      If the user is offline, the subtracted funds will be added to the UI and will be cashed using IndexDB however, the funds added will not show on Robo 3T until the user is back online and this cashed data is retrieved and pushed to the front-end database.
+
+## License
+
+![APM](https://img.shields.io/apm/l/README)
+
+## Badges
+
+![HTML](https://img.shields.io/badge/HTML-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-blue)
+![CSS](https://img.shields.io/badge/CSS-blue)
+![express](https://img.shields.io/badge/express-blue)
+![mongoose](https://img.shields.io/badge/mongoose-blue)
+![mmorgan](https://img.shields.io/badge/morgan-blue)
+
+## Contributing 
+
+To contribute to this project, please make sure you follow the guidelines in [The Contributor Covenant](https://www.contributor-covenant.org/) as general guidelines.
+Kindly maintain the highest ethics and respect. For further questions or requests kindly contact me through my [Email](mailto:noha_ashraf85@hotmail.com) or [GitHub](https://github.com/NohaAshraf85).
+
+
+## Deployed-Application
+The Online/Offline Budget Tracker is deployed on Heroky through the following link: [Budget-Tracker](https://morning-castle-91719.herokuapp.com/) and the database is setup on MongoDB Atlas
+
+## Tests
+The Application is tested using the browser through operating it and inspecting to turn it online and offline and make sure that after the application was offline while adding or subtracting funds, the data is still available after going back online. The Database is tested using Robot 3T to make sure that once the user is online the front-end database is populated. 
+
+## Questions
+For any questions, please contact me through [GitHub](https://github.com/NohaAshraf85) 
+or [Email](mailto:noha_ashraf85@hotmail.com)
 
 
 
